@@ -1,1 +1,10 @@
-test SAIGE WDL
+version: 1.2
+workflows:
+  - subclass: WDL
+    primaryDescriptorPath: /WDL_tests/run_SAIGE.wdl
+    testParameterFiles: 
+    readMePath: /WDL_tests/README.md
+    authors:
+      - name: Peter Straub
+        email: peter.straub@vumc.org
+    topic: SAIGE WDL test
